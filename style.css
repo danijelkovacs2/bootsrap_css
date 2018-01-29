@@ -1,0 +1,289 @@
+*,*:after,*:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #777777;
+    font: 400 14px RobotoSlab;
+}
+img{
+    border: none;
+}
+h2{
+    text-transform: uppercase;
+    
+}
+a,a:link,a:hover{
+    text-decoration: none;
+} 
+header{
+    width: 100%;
+    min-height: 729px;
+    background: url(../images/bg_header.png) fixed;
+    background-position: center left;
+    background-size: cover;
+}
+
+.navbar{
+    background: transparent;
+    border:none;
+    padding: 2% 0;
+}
+.logo{
+    float: left;
+    margin: 25% auto;
+   
+}
+.top_header{
+    width:100%;
+    min-height: 60px;
+    z-index: 1000;
+    
+}
+.navbar-collapse{
+    float: right;
+}
+.navbar-collapse .nav li a{
+    color: #ffffff;
+    font: bold 17px / 41px Montserrat;
+    text-transform: uppercase;
+}
+.top_header.sticky{
+    position: fixed;
+    min-height: 40px;
+    transition: all 0.5s linear;
+    background: #222;
+    
+}
+.top_header.sticky .navbar{
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s linear;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background: transparent;
+    color: #fed136;
+}
+.navbar-collapse .nav li a:hover{
+    color: #fed136;
+    transition: all 0.5s linear;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fed136; 
+}
+
+
+span.title{
+    color: #ffffff;
+    font: italic 40px DroidSerif;
+    font-style: italic;
+    font-weight: normal;
+}
+h1.title{
+    color: #ffffff;
+    font: 700 75px Montserrat;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button.learn{
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    border:none;
+    color: #ffffff;
+    font: 700 18px Montserrat;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.4s ease-in;   
+}
+
+button.learn:hover{
+    border:2px solid #fff;
+    background: none;
+    color:#fff;
+}
+span.title,h1.title,button.learn{
+ margin: 5% auto;
+}
+/*services*/
+#services{
+    width:100%;
+    min-height: 600px;
+    background: url(images/Background.png); 
+}
+h2.s_title{
+    color: #222222;
+    font: 700 40px / 75px Montserrat;
+    position: relative;
+    top:30px;
+}
+
+strong.s_title{
+    color: #777777;
+    font: italic 16px DroidSerif;
+}
+
+h2.s_cont{
+    color: #222222;
+    font: 700 18px / 75px Montserrat;
+}
+p.s_cont{
+   color: #777777;
+    font: 400 14px RobotoSlab;
+    line-height: 28px;
+}
+
+.botton{
+    margin: 8% auto;
+}
+
+/*portfolio*/
+#portfolio{
+    width: 100%;
+    min-height: 1218px;
+    background: url(images/bg_portfolio.png);
+    background-color: #f7f7f7;
+   
+}
+.mbr-gallery{
+    margin-top: 5%;
+}
+/*about*/
+#about_us{
+    width:100%;
+    min-height: 500px;
+    background: #fff;
+}
+
+#about_us h3,span{
+    color: #222222;
+    font: 700 18px Montserrat;
+    text-transform: capitalize;
+    
+}
+#about_us p{
+    color: #777777;
+    font: 400 14px RobotoSlab;
+    margin-top: 5%;
+}
+/*team*/
+#team{
+    width: 100%;
+    min-height: 818px;
+    background-color: #f9f9f9;
+    
+    
+}
+
+#team .social_icons li{
+    display: inline;
+}
+#team h4{
+    color: #222222;
+    font: 700 16px / 50px Montserrat;
+    position: relative;
+    top:5px;
+}
+#team span{
+    color: #777777;
+    font: 400 14px RobotoSlab;
+    position: relative;
+    top:-10px;
+}
+    
+   
+/*spoznor*/
+
+#sponzors{
+    width:100%;
+    min-height: 100px;
+    background: #fff;
+}
+.sponzor {
+    list-style: none;
+    margin: 4% auto;
+}
+.sponzor li{
+    display: inline;
+    margin: 4%;
+}
+/*contact*/
+#contact{
+    width:100%;
+    min-height: 677px;
+    background: url(../images/contact.png) fixed;
+    background-position: center left;
+
+}
+#contact h2.s_title{
+    color: #ffffff;
+    font: 700 40px Montserrat;
+    
+    
+}
+
+
+#contact [type="text"],[type="email"]{
+    width: 455px;
+    height: 50px;
+    color: #bbbbbb;
+    font: 700 14px Montserrat;
+    text-transform: uppercase;
+    padding-left: 10px;
+    
+}
+#contact textarea{
+    width: 455px;
+    height: 210px;
+    background: url((images/Your-Message---Field.png); 
+    resize: none;
+     color: #bbbbbb;
+    font: 700 14px Montserrat;
+    text-transform: uppercase;
+    padding: 2.5%;
+    
+}
+
+#contact [type="email"]{
+    margin-top: 30px;
+}
+
+.send{
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    border:none;
+    border-radius: 3px;
+    color: #ffffff;
+    font: 700 18px Montserrat;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in;
+   margin: 8% auto;
+}
+.send:hover{
+    background: transparent;
+    border:2px solid #fff;
+     color: #ffffff;
+}
+
+/*footer*/
+footer{
+    width:100%;
+    min-height: 60px;
+    background: #fff;
+}
+footer .s_icon li{
+    display: inline;
+    margin-right: 4%;
+   
+}
+footer .s_icon {
+    margin: 4% 165px;
+}
+p.f_text{
+    color: #555555;
+    font: 400 14px / 22px Montserrat;
+    margin: 15% auto;
+}
